@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: left;
+}
+.filter-item {
+  margin-bottom: 10px;
+}
+
+.search-item {
+  margin-top: 10px;
+}
+.trivia-container{
+  display: flex;
+  gap: 20px;
+}
