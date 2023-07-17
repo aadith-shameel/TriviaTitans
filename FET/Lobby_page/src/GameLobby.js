@@ -26,7 +26,8 @@ function GameLobby() {
       : triviaGames;
 
     const filteredBySearchTerm = filteredByDifficulty.filter(game =>
-      game.GameName.toLowerCase().includes(searchTerm.toLowerCase())
+      game.GameName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      game.Category.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     setFilteredGames(filteredBySearchTerm);
